@@ -1,0 +1,78 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+        
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center center;
+        margin : 0;
+        padding: 0;
+        background-image: url(universo.jpg);
+
+}
+
+#penis {
+        width: 200px;
+        height: 50px;
+        background: pink;
+        -webkit-transform:rotate(40deg);
+        -moz-transform: rotate(40deg);
+        -ms-transform: rotate(40deg);
+        -o-transform: rotate(40deg);
+        margin-top: 30%;
+        margin-left: auto;
+        margin-right: auto;
+          position: relative;
+          border-top-left-radius: 50px;
+          border-bottom-left-radius: 50px;
+          border-top-right-radius: 50px;
+		  border:2px solid #F69;
+		  z-index:3;
+		background-image: -webkit-linear-gradient(top , #F99 0%, #FF99CC 50%, #F99 100%);
+
+}
+
+#palle {
+        width: 80px;
+        height: 80px;
+        background: pink;
+        -moz-border-radius: 50px;
+        -webkit-border-radius: 50px;
+        border-radius: 50px;
+        border-color: black;
+        margin-top: 1%;
+        margin-left: 50%;
+        position: relative;
+	    border:3px solid #F69;
+		z-index:4;
+		background-image: -webkit-radial-gradient(top , #F99 0%, #FF99CC 50%, #F99 100%);
+
+
+}
+#palle2 {
+        width:73px;
+        height: 73px;
+        background: pink;
+        -moz-border-radius: 50px;
+        -webkit-border-radius: 50px;
+        border-radius: 50px;
+        border-color: black;
+        margin-top: -100px;
+        margin-left: 49%;
+        position: relative;
+	    border:3px solid #F69;
+        z-index:2;
+        background-image: -webkit-radial-gradient(top , #F99 0%, #FF99CC 50%, #F99 100%);
+
+}
+.glande {
+        position: static;
+        top: 0;
+        left: 0;
+		height:100%;
+		width:21%;
+        background-color: #FF3333;
+        border-top-left-radius: 50px;
+		border-bottom-left-radius: 50px;
+        z-index: 5;
+}
